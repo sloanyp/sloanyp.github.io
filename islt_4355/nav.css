@@ -1,0 +1,49 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+
+  
+  li a {
+    float: right;
+    font-size: 24px;
+    display: block;
+    color: #59362E;
+    text-align: center;
+    padding: 50px 16px;
+    text-decoration: none;
+    font-family: 'Krub', sans-serif;
+  }
+
+  .splitLogo {
+    float: left;
+    padding: 22px;
+   
+  }
+  
+  .splitName {
+    float: left;
+    display: block;
+    padding: 50px 0px;
+    font-family: 'Krub', sans-serif;
+    font-size: 24px;
+    color: #59362E;
+    font-weight: bold;
+  }
+
+  
+ 
+  li a:hover {
+    background-color: #bf8885;
+    opacity: 62%;
+  }
+  .active {
+    background-color: #bf8885;
+    text-decoration: underline;
+    color: #59362E;
+  }
+
