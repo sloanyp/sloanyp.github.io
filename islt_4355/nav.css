@@ -1,49 +1,49 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-  }
-  
 
-  
-  li a {
-    float: right;
-    font-size: 24px;
-    display: block;
-    color: #59362E;
-    text-align: center;
-    padding: 50px 16px;
-    text-decoration: none;
-    font-family: 'Krub', sans-serif;
-  }
+nav{
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  font-family: 'Krub', sans-serif;
+}
 
-  .splitLogo {
-    float: left;
-    padding: 22px;
-   
-  }
-  
-  .splitName {
-    float: left;
-    display: block;
-    padding: 50px 0px;
-    font-family: 'Krub', sans-serif;
-    font-size: 24px;
-    color: #59362E;
-    font-weight: bold;
-  }
+ul{
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 
+nav ul li a {
+  font-size: 24px;
+  display: block;
+  color: #59362E;
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+  font-family: 'Krub', sans-serif;
   
- 
-  li a:hover {
-    background-color: #bf8885;
-    opacity: 62%;
-  }
-  .active {
-    background-color: #bf8885;
-    text-decoration: underline;
-    color: #59362E;
-  }
+}
+nav ul li ul {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+}
+li a:hover {
+  background-color: #bf8885;
+  opacity: 62%;
+}
+.active {
+  background-color: #bf8885;
+  text-decoration: underline;
+  color: #59362E;
+}
 
+nav ul li:hover ul {
+  display: flex;
+
+}
+nav ul li ul li a:hover {
+  background-color:  #bf8885;
+}
