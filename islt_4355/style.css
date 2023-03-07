@@ -1,1 +1,60 @@
-h1 {color:#ff6699;}
+
+img.headerImg{
+    width: 100%;
+    height: 354px;
+    display: block;
+}
+
+.head-container{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Krub', sans-serif;
+}
+
+.centerHead{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+}
+div.flex-container{
+    background-color: #f2e4d8;
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    padding: 36px;
+  }
+ 
+
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    color: #59362E ;
+    font-family: 'Krub', sans-serif;
+  }
+
+.card h2{
+    color: #A67356;
+}
+
+.reflection{
+    font-family: 'Krub', sans-serif;
+    color: #59362E;
+    width: 705px;
+    margin: 0px;
+    padding: 20px;
+}
+
+p.indent{
+    text-indent: 50px;
+}
+
+p.firstLetter::first-letter {
+    font-size: 150%;
+}
