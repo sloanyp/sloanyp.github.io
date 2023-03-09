@@ -1,3 +1,10 @@
+body{
+    background-image: url("graphicforwebsite2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 35%;
+    background-color: #f2e4d8 ;
+    margin: 0px;
+}
 
 img.headerImg{
     width: 100%;
@@ -18,9 +25,9 @@ img.headerImg{
     left: 50%;
 }
 div.flex-container{
-    background-color: #f2e4d8;
     display: flex;
     justify-content: center;
+    margin-top: 200px;
 }
 
 

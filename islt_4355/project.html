@@ -22,31 +22,31 @@ Tested: 2/6/2023
                <link rel="stylesheet" href="nav.css">
                <link rel="preconnect" href="https://fonts.googleapis.com">
                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+               <meta name="viewport" content="width=device-width,initial-scale=1">
                <link href="https://fonts.googleapis.com/css2?family=Krub&display=swap" rel="stylesheet">
                <title>Projects</title>
 </head>
 <body>
-    <nav>
-        <img src="logo.jpg" alt ="logo" class="splitLogo">
-        
-        <ul>
-            
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a class="active" href="project.html">Projects</a>
-                <ul>
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                </ul>
-            </li>
-            <li><a href="reflection.html">Reflection</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-
-    <header></header>
+    <header>
+        <nav>
+            <label id="hamburger">&#9776;</label>
     
+            <img src="logo.jpg" alt ="logo" class="splitLogo">
+            <ul >
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="project.html">Projects</a>
+                    <ul id="mobileHide">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="reflection.html">Reflection</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <main></main>
     <footer>
         <p>Author: Sloan Pardo</p>

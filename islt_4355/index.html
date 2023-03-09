@@ -19,7 +19,8 @@ Tested: 2/6/2023
 -->
                <meta charset="utf-8">
                <title>Home</title>
-               <link rel="stylesheet" href="style.css">
+               <meta name="viewport" content="width=device-width, initial-scale=1">
+               <link rel="stylesheet" href="home.css">
                <link rel="stylesheet" href="nav.css">
                <link rel="preconnect" href="https://fonts.googleapis.com">
                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,43 +28,47 @@ Tested: 2/6/2023
              
 </head>
 <body>
-    <nav>
-        <img src="logo.jpg" alt ="logo" class="splitLogo">
-        <ul>
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="project.html">Projects</a>
-                <ul>
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                </ul>
-            </li>
-            <li><a href="reflection.html">Reflection</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-
-    </nav>
     <header>
-        <h1>Hello,</h1> 
+        <nav>
+            <label id="hamburger">&#9776;</label>
+            <img src="logo.jpg" alt ="logo" class="splitLogo">
+            <ul >
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Projects</a>
+                    <ul id="mobileHide">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="reflection.html">Reflection</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
+    
     <main>
-        <h2>welcome to my portfolio.</h2>
-        <p>
-            I am so happy you stopped by! 
-            My name is Sloan Pardo, here you will get a glimpse into my Information Technology journey. 
-            Whether you are a future employer or would just like to see what I have been up to for the past five 
-            years you are in the right place. I hope to portray a wide variety of all my skills, 
-            that will ultimately land me a job in the field of my dreams. 
-            The hard work and dedication have paid off. I am excited to share a bit about myself, my projects, 
-            skills, and reflection of my experiences. Feel free to reach out or get in contact 
-            with me by navigating to the contact page. Please enjoy!
-        </p>   
+        <div class="wrapper">
+            <h2>welcome to my portfolio.</h2>
+            <p>
+                I am so happy you stopped by! 
+                My name is Sloan Pardo, here you will get a glimpse into my Information Technology journey. 
+                Whether you are a future employer or would just like to see what I have been up to for the past five 
+                years you are in the right place. I hope to portray a wide variety of all my skills, 
+                that will ultimately land me a job in the field of my dreams. 
+                The hard work and dedication have paid off. I am excited to share a bit about myself, my projects, 
+                skills, and reflection of my experiences. Feel free to reach out or get in contact 
+                with me by navigating to the contact page. Please enjoy!
+            </p>  
+        </div> 
     </main>
     <footer>
         <p>Author: Sloan Pardo</p>
         <p><a href="mailto:sjp6qy@mail.missouri.edu">sjp6qy@mail.missouri.edu</a></p>
         <p>Copyright &copy; 2023</p>
     </footer>
+        
+        
 </body>
 </html>
