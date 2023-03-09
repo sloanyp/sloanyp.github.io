@@ -19,71 +19,100 @@ Tested: 2/6/2023
     
     <meta charset="utf-8">
     <title>About Me</title>
-    <style>
-        .resume {
-            background-color: tomato;
-            width: 100px;
-            border: 2px solid black;
-            margin: 70px;
-            padding: 20px;
-        }
-    </style>
+    
     <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="about.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Krub&display=swap" rel="stylesheet">
 </head>
-<body>
-    <nav>
-        <img src="logo.jpg" alt ="logo" class="splitLogo">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a class="active" href="about.html">About</a></li>
-            <li><a href="project.html">Projects</a>
-                <ul>
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                </ul>
-            </li>
-            <li><a href="reflection.html">Reflection</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+<nav>
+    <img src="logo.jpg" alt ="logo" class="splitLogo">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="about.html">About</a></li>
+        <li><a href="project.html">Projects</a>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </li>
+        <li><a href="reflection.html">Reflection</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
 
-    </nav>
-    <header>
-        <h1>Sloan Pardo</h1> 
-    </header>
-    <nav></nav>
+</nav>
+<body>
     <main>
-        <h2>About Me:</h2>
-        <p>
-            I am a 5th year senior in Mizzou’s Engineering school. 
-            Prior to college I graduated from an all-girls high school in St. Louis, St. Josephs Academy. 
-            This is where my interest in technology blossomed. I began my first web design course as a junior in 2016. Moving on to college, it is important for 
-            me to be involved in art. Leading me to choose Digital Story Telling as my major. 
-            After starting classes I realize that something is missing and that I am not happy with my decision.
-            I then take a leap of faith, deciding to change my major. 
-            I want a challenge that I can also make a career out of. Today, my major is Information Technology. 
-            I have a certification in cybersecurity as well as a minor in art. 
-            I plan to graduate from the University of Missouri in May 2023.  
-        </p>
-        <h3>Favorite Quote:</h3>
-        <blockquote>
-            <p>
-                Well-behaved women seldom make history.
-                <cite>Laurel Thatcher Ulrich</cite>
-            </p>
+        <div class="wrapper">
             
-        </blockquote>
-        <p class="resume">
-            <a href="pardoResume.PDF">Link to resume</a>
-        </p>
+            <div class="box a"><img src="selfie.jpg" alt="head shot"></div>
+
+
+
+            
+            <div class="box b">
+                <h1 class="heading">About</h1>
+                <h1 class="headingTwo">Sloan Pardo</h1>
+                <p>I am a 5th year senior in Mizzou’s Engineering school. 
+                    Prior to college I graduated from an all-girls high school in St. Louis, St. Josephs Academy. 
+                    This is where my interest in technology blossomed. I began my first web design course as a junior in 2016. Moving on to college, it is important for 
+                    me to be involved in art. Leading me to choose Digital Story Telling as my major. 
+                    After starting classes I realize that something is missing and that I am not happy with my decision.
+                    I then take a leap of faith, deciding to change my major. 
+                    I want a challenge that I can also make a career out of. Today, my major is Information Technology. 
+                    I have a certification in cybersecurity as well as a minor in art. 
+                    I plan to graduate from the University of Missouri in May 2023.
+                </p>
+            </div>
+            <div class="box c">
+                <iframe width="640" height="360" src="https://www.powtoon.com/embed/ffhZ2Qze7Q1/" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="box d">
+                <div class="box e">
+                    <a href="pardoResume.PDF">resumelink</a>
+                </div>
+                <div class="box f">
+                    <a href="https://github.com/sloanyp">github</a>
+                </div>
+            </div>
+            <div class="box g">
+                <blockquote>
+                    <p>
+                        "Well-behaved women seldom make history."
+                        <cite>Laurel Thatcher Ulrich</cite>
+                    </p>
+                </blockquote>
+            </div>
+        </div>
+        
+       
     </main>
     <footer>
-        <p>Author: Sloan Pardo</p>
-        <p><a href="mailto:sjp6qy@mail.missouri.edu">sjp6qy@mail.missouri.edu</a></p>
-        <p>Copyright &copy; 2023</p>
+        <div class="footer">
+            <div class="row">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+            
+            <div class="row">
+            <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Reflection</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+            </div>
+            
+            <div class="row">
+            Sloan Pardo Copyright © 2023 Sloan Pardo - All rights reserved || Designed By: Sloan Pardo
+            </div>
+            </div>
     </footer>
    
 </body>
