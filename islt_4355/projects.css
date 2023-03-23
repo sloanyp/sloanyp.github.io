@@ -69,6 +69,13 @@ footer{
 .footer .row a:hover{
     color:#fff;
 }
+.icon{
+    width:30px;
+    transition: transform .2s;
+}
+.icon:hover{
+    transform: scale(1.5);
+}
     
 .footer .row ul{
     width:100%;

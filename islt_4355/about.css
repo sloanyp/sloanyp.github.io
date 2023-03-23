@@ -112,6 +112,13 @@ h1{
     color:#59362E;
     transition:0.5s;
 }
+.icon{
+  width:30px;
+  transition: transform .2s;
+}
+.icon:hover{
+  transform: scale(1.5);
+}
     
 .footer .row a:hover{
     color:#fff;
