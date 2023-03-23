@@ -48,6 +48,9 @@ footer{
     padding:30px 0px;
     font-family: 'Play', sans-serif;
     text-align:center;
+    background-image: url("graphicforwebsite2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%
 }
 .footer .row{
     width:100%;
