@@ -172,3 +172,64 @@ h1{
         font-size: 12px;
     }
 }
+
+@media print {
+  *{
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    font-family: serif;
+    text-align: left;
+    
+  }
+  h1{
+    font-family: 'Krub', sans-serif;
+  }
+  .wrapper {
+    display: block;
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  nav{
+    display:none;
+  }
+  .box.a{
+    display: none;
+  }
+  .box.b p{
+    font-size: 16px;
+  }
+  .box.c{
+    display: none;
+  }
+  .box.d{
+    display: none;
+  }
+  .box.g{
+    margin: 0;
+    padding: 0;
+  }
+  .footer{
+    margin: 0;
+    padding: 0;
+  }
+  .row.One{
+    display: none;
+  }
+  .row.Two img{
+    display: none;
+  }
+  .row.Three{
+    display: none;
+  }
+  .row.Four{
+    display: none;
+  }
+  @page {
+    margin: 1in;
+  }
+}
