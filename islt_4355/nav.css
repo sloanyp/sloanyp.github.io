@@ -19,12 +19,13 @@ ul{
   
 }
 
-
+nav ul li a.page {
+  padding: 30px 16px;;
+}
 nav ul li a {
   font-size: 24px;
   color: #59362E;
   text-align: center;
-  padding: 30px 16px;
   text-decoration: none;
   font-family: 'Krub', sans-serif;
   
@@ -48,6 +49,8 @@ li a:hover {
   text-decoration: underline;
   color: #59362E;
 }
+
+
 
 nav ul li:hover ul {
   display: flex;

@@ -1,5 +1,4 @@
 body{
-    background-image: url("graphicforwebsite2.jpg");
     background-repeat: no-repeat;
     background-size: 100% 35%;
     background-color: #f2e4d8 ;
@@ -9,13 +8,13 @@ body{
     box-sizing: border-box;
   }
 .row{
-    margin: 200px 10px 50px 10px;
+    width: 50%;
+    margin:auto;
 }
-.column {
-    float: left;
-    width: 25%;
-    padding: 10px;
-  }
+.wrapper{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
 
 .row:after {
     content: "";
@@ -116,13 +115,7 @@ footer{
     clear: both;
   }
   @media screen and (max-width: 700px) {
-    body{
-        background-image: url("graphicforwebsite2.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% 10%;
-        background-color: #f2e4d8 ;
-        margin: 0px;
-      }
+    
     .column {
       width: 100%;
       display: block;

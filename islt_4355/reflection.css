@@ -1,5 +1,5 @@
 body{
-    background-image: url("graphicforwebsite2.jpg");
+
     background-repeat: no-repeat;
     background-size: 100% 18%;
     background-color: #f2e4d8 ;
@@ -27,7 +27,7 @@ img.headerImg{
 div.flex-container{
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 
