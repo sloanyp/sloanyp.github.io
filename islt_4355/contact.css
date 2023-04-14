@@ -1,0 +1,169 @@
+body{
+    background-color: #f2e4d8 ;
+    margin: 0px;
+}
+h1{
+    text-align: center;
+    color:#A67356;
+}
+/* Style inputs, select elements and textareas */
+input[type=text], input[type=email], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    background: rgb(191,136,133, .7);
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    transition: 0.5s;
+    outline: none;
+  }
+  input::placeholder{
+    color:#bf8885;
+    opacity: 100%;
+  }
+  textarea::placeholder{
+    color:#bf8885;
+    opacity: 100%;
+  }
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  div#send.row{
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 21px;
+  }
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #A67356;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  input[type=text]:focus, input[type=email]:focus, textarea:focus{
+    border: 1px solid #59362E;
+  }
+  
+  /* Style the container */
+  .container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    margin: 100px 200px;
+    font-family: 'Krub', sans-serif;
+    box-shadow: 20px 20px #A67356;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    color: #59362E;
+    font-weight: bold;
+
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+  
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.footer{
+    background-color:white;
+    padding:30px 0px;
+    font-family: 'Krub', sans-serif;
+    text-align:center;
+    background-image: url("graphicforwebsite2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+.footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color: #59362E;
+    font-size:0.8em;
+}
+.footer .row p{
+    text-align: center;
+
+}
+.icon{
+    width:30px;
+    transition: transform .2s;
+}
+.icon:hover{
+    transform: scale(1.5);
+}
+
+
+ /*footer code from https://alvarotrigo.com/blog/website-footers/*/
+.footer .row a{
+    text-decoration:none;
+    color:#59362E;
+    transition:0.5s;
+}
+    
+.footer .row a:hover{
+    color:#fff;
+}
+    
+.footer .row ul{
+    width:100%;
+    justify-content: center;
+}
+    
+.footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+}
+    
+.footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+    .container {
+        
+        margin: 100px 
+      }
+}
+
+@media (max-width:700px){
+    .footer{
+    
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+   
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+}

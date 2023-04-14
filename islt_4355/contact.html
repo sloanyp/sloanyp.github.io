@@ -18,16 +18,16 @@ Tested: 2/6/2023
 
 -->
                <meta charset="utf-8">
-               <title>Home</title>
+               <title>Contact</title>
                <meta name="viewport" content="width=device-width, initial-scale=1">
-               <link rel="stylesheet" href="home.css">
+               <link rel="stylesheet" href="contact.css">
                <link rel="stylesheet" href="nav.css">
                <link rel="preconnect" href="https://fonts.googleapis.com">
                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
                <link href="https://fonts.googleapis.com/css2?family=Krub&display=swap" rel="stylesheet">
                <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-               
+              
 </head>
 <body>
     <header>
@@ -35,32 +35,59 @@ Tested: 2/6/2023
             <label id="hamburger">&#9776;</label>
             <img src="logo.jpg" alt ="logo" class="splitLogo">
             <ul >
-                <li><a class="page" class="active" href="index.html">Home</a></li>
+                <li><a class="page" href="index.html">Home</a></li>
                 <li><a class="page" href="about.html">About</a></li>
                 <li><a class="page" href="project.html">Projects</a></li>
                 <li><a class="page" href="reflection.html">Reflection</a></li>
-                <li><a class="page" href="contact.html">Contact</a></li>
+                <li><a class="page" class="active" href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     
     <main>
-        <div class="wrapper">
-            <div class="child">
-                <h2>Hello,</h2>
-                <h2>welcome to my portfolio.</h2>
-                <p>
-                    I am so happy you stopped by! 
-                    My name is Sloan Pardo, here you will get a glimpse into my Information Technology journey. 
-                    Whether you are a future employer or would just like to see what I have been up to for the past five 
-                    years you are in the right place. I hope to portray a wide variety of all my skills, 
-                    that will ultimately land me a job in the field of my dreams. 
-                    The hard work and dedication have paid off. I am excited to share a bit about myself, my projects, 
-                    skills, and reflection of my experiences. Feel free to reach out or get in contact 
-                    with me by navigating to the contact page. Please enjoy!
-                </p> 
+        <div class="container">
+            <div class="row">
+                <h1>Contact me</h1>
             </div>
-        </div> 
+            <form action="mailto:pardo.sloan@gmail.com?Subject=Portfolio/Professional%20Website%20Contact" method="post" enctype="text/plain" id="usrform">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">First name:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="fname" placeholder="First name" required autofocus>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Last name:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="lname" placeholder="Last name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="email">Email:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="message">Message:</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="message" name="message" placeholder="Type a message..." form="usrform" style="height:200px" required></textarea>
+                    </div>
+                </div>
+                <div class="row" id="send">
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+       
     </main>
     <footer>
         <div class="footer">
