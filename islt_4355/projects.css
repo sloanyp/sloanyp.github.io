@@ -11,6 +11,10 @@ body{
     width: 50%;
     margin:auto;
 }
+.column{
+    box-shadow: 20px 20px #A67356;
+    margin-bottom: 40px;
+}
 .wrapper{
     margin-top: 100px;
     margin-bottom: 20px;
